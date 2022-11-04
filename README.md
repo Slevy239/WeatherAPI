@@ -13,4 +13,4 @@
 
  ## UML sequence diagram
 
- ![UML sequence](./Screenshot%202022-10-31%20191455.png)
+ ![UML sequence](./image/Screenshot%202022-10-31%20191455.pngScreenshot%202022-10-31%20191455.png)
