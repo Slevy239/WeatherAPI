@@ -19,17 +19,12 @@ while True:
     days = []
     values = req["list"]
 
-    for value in values:
-        if value["main"]:
-            # humid = value["main"]["humidity"]
-            # temp = value["main"]["temp"]
-            vals.append(value["main"]["humidity"])
-
-    for i in range(len(vals)):
+    for i in range(len(values)):
         if i % 8 == 0:
-            days.append(vals[i])
-    print(days)
-    res = days
+            vals.append(values[i]["main"]["humidity"])
+
+    
+    res = vals
     json_res = json.dumps(res)
 
     socket.send_json(json_res)
