@@ -2,12 +2,12 @@
 
 
  ## how to REQUEST data
- To request Data, You must access the route: '/api/:lat/:long' with the latitude and longitude parameters of the loaction you want the data from.
+ To request Data, clone Repo and install imported packages. In seperate Terminals run 'python client.py' and 'python server.py'
 
 
  ## how to RECEIVE  data
 
- The data can be recieved in a JSON object when the route with a GET call and the necessary paramters are present in the url string.
+ to recieve data, follow the same procedure as request data. 
 
 
 
